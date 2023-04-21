@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Merriweather Sans', sans-serif;
+    letter-spacing: 0!important;
+    overflow-y: hidden;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    background: black;
+}
+
+#container {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 16px;
+    border-radius: 50px;
+}
+
+
+
+.tabs {
+    display: table-cell;
+    width: 30%;
+    background-color: #fff;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #ffffff;
+    border-bottom: 0px;
+    position: relative;
+    font-size: 1.3em;
+    color: black;
+    opacity: 0.9;
+    transition: 0.5s;
+    
+}
+.tabs:hover, p{
+    cursor: pointer;
+    opacity: 1
+}
+
+#lt {
+    background-color: #fff;
+}
+#cont {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 0 30px 30px 30px;
+    border: 2px solid #ffffff;
+}
+
+input{
+    /* display: block;
+    width: 250px;
+    margin: 10px 13px;
+    padding: 10px;
+    font-size: 1.3em;
+    color: rgba(11, 177, 224, 0.82);
+    outline: 2px solid #ffffff; */
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background: #f1f1f1;
+    border: 0.5px solid transparent;
+    margin-left: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+input:focus {
+    box-shadow: inset 5px 5px 2px #babecc, inset -5px -5px 10px #fff;
+    outline: 0;
+    border: gray;
+}
+
+input:hover {
+   border: 0.5px solid red;
+}
+
+input[type="submit"] {
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 3rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 272px;
+}
+
+input[type="submit"]:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: 0.5s;
+    color: lime;
+}
+
+
+#clear {
+    clear: both;
+}
+
+.comm {
+    position: absolute;
+    visibility: hidden;
+}
+#login {
+    visibility: visible;
+}
+
+h3 {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px 15px;
+    font-size: 2.3em;
+    text-align: center;
+    color: black;
+    text-align: center;
+    margin-left: 100px;
+}
+
+#forgot h3 {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#forgot h3:hover {
+    color: grey;
+}
+
+#forgot div {
+    margin-top: 30px;
+}
+
+#forgot div:hover {
+    color: grey; 
+}
+p {
+    padding: 10px 15px;
+    font-size: 1.3em;
+    color: black;
+}
+
+.comm:hover {
+ color: gray;
+}
